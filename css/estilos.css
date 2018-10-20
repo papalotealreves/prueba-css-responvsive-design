@@ -1,0 +1,98 @@
+body{ font-family: "dancing script";
+      background-color: black}
+img{border: 1px solid black;
+    border-radius: 10px}
+nav{
+  background-color: #5b7989;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;}
+
+  @keyframes header-animacion {
+    0%{position: relative;
+        margin-top: 150%;}
+    50%{position: relative;
+        margin-top: -5%;}
+   100%{margin-top: 0%}
+  }
+
+header{
+  animation-name: header-animacion;
+  animation-duration: 3s;}
+#aguilakarto:hover{transform: rotate(10deg);
+  -webkit-box-shadow: 10px 10px 5px 0px #82c3a6;
+-moz-box-shadow: 10px 10px 5px 0px #82c3a6;
+box-shadow: 10px 10px 5px 0px #82c3a6;}
+#cabralengua:hover{transform: translate(0px,-20px);
+  -webkit-box-shadow: 10px 10px 5px 0px #82c3a6;
+-moz-box-shadow: 10px 10px 5px 0px #82c3a6;
+box-shadow: 10px 10px 5px 0px #82c3a6;
+                   }
+
+
+.aguila1{background-color: #82c3a6}
+.fotossecundarias{
+  background-color: yellow;
+display:flex; flex-direction:row;
+justify-content:space-around; width:100%;}
+  @media (min-width: 900px) {
+
+    h1{display:inline-flex;
+      margin-left: 5%;
+      padding-right:40%;
+      text-shadow: 2px 2px 2px #02010a;}
+    #aguila1 {margin-left: 15%;
+     width: 70%;  margin-top: 5%;margin-bottom: 5%; }
+
+        #aguilakarto{width:70%;
+        }
+        #cabralengua{width: 70%;}
+        .piedepagina{display: flex;flex-direction: row;}
+    }
+@media (max-width: 899px) {
+  h1{display:flex;
+    flex-direction: column;
+
+    text-shadow: 2px 2px 2px #02010a;}
+  #aguila1 {  margin-top: 5%;margin-bottom: 5%;
+   width: 60%;}
+  #aguilakarto{
+            width:60%;
+          }
+  #cabralengua{
+             width: 60%;
+          }
+body{
+  align-items: center;
+  text-align: center;
+}
+.fotossecundarias{  background-color: yellow;
+display:flex; flex-direction:column;
+justify-content:space-around; width:100%;}
+.piedepagina{display:flex;flex-direction: column; border: 1px solid black;
+  }}
+
+.foto1{text-align: center;
+  margin-top: 5%;margin-bottom: 5%}
+
+.foto2{text-align: center;
+  margin-top: 5%;margin-bottom: 5%}
+  footer{
+    width:100%;
+    background-color: #c6d5c5;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    text-align: center; }
+
+
+.columna1{width: 25%;text-align: center;}
+.columna2{width: 25%;text-align: center;}
+.columna3{width: 25%;text-align: center;}
+.columna4{width: 25%;text-align: center;}
+
+#garza1{filter: blur(10px);}
+#garza2,#garza4,#garza6{filter: grayscale(100%);}
+#garza3{filter: sepia(90%);}
+
+#pato1{filter: blur(10px);}
+#pato2,#pato4,#pato6{filter: grayscale(100%);}
+#pato3{filter: sepia(90%);}
